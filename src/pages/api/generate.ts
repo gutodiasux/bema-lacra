@@ -13,7 +13,7 @@ const handler = nextConnect<NextApiRequest, NextApiResponse>({
 })
 
   .post((req, res) => {
-    const { NumeroSocial, RIF, NIT, DIV, MARCA } = req.body
+    const { NumeroSocial, RIF, NIT, DIV, MARCA = 'Bematech' } = req.body
 
     return res.status(200).json({ key: 'generateKy', data: new Date() })
   })
