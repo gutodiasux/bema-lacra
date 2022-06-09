@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@xingrz/ffi-napi": "^4.1.0-alpha.1",
     "cors": "^2.8.5",
-    "ffi-napi": "^4.0.3",
     "next": "12.1.6",
     "next-connect": "^0.12.2",
     "react": "18.1.0",
